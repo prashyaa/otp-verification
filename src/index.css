@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 211, 211);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.otpInput {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .otpInput__box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 24px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
